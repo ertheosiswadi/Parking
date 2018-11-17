@@ -8,8 +8,8 @@ const data = {
 	gayley: [true, false, true, false, true]
 }
 
-const denise = {
-	name: 'denise'
+const data_2 = {
+	gayley: ["Yes", "No", "Yes", "No", "Yes"]
 }
 
 app.get('', (request, response) => {
@@ -17,9 +17,9 @@ app.get('', (request, response) => {
 	response.send(JSON.stringify(data));
 })
 
-app.get('/denise', (request, response) => {
+app.get('/string', (request, response) => {
 	response.header('Content-Type', 'application/json');
-	response.send(JSON.stringify(denise));
+	response.send(JSON.stringify(data_2));
 })
 
 app.listen(PORT, () => {

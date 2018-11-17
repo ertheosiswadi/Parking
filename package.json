@@ -1,0 +1,26 @@
+{
+  "name": "parking",
+  "version": "1.0.0",
+  "description": "parking app send parking availability info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ertheosiswadi/Parking.git"
+  },
+  "keywords": [
+    "parking",
+    "availability"
+  ],
+  "author": "Ertheo Siswadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ertheosiswadi/Parking/issues"
+  },
+  "homepage": "https://github.com/ertheosiswadi/Parking#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

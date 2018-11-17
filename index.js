@@ -19,7 +19,7 @@ app.get('', (request, response) => {
 
 app.get('/denise', (request, response) => {
 	response.header('Content-Type', 'application/json');
-	response.send(JSON.stringify(data));
+	response.send(JSON.stringify(denise));
 })
 
 app.listen(PORT, () => {

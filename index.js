@@ -5,7 +5,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const data = {
-	gayley: [true, false, true, false, true]
+	gayley: [true, false, true, false, true],
+	ralphs: [true, false, true],
 }
 
 const data_2 = {
